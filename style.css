@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    background: rgb(187, 184, 184);
+    font-family: Lora, sans-serif;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 400px;
+  height: auto;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h1, h2, .link {
+  text-align: center;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#image {
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 15px;
+  }
+
+#img-caption {
+  font-style: italic;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+ul {
+  
+  margin: none;
+  padding: none;
+  font-size: 18px;
+}
+
+#tribute-info {
+  padding: 5px;
+}
+
+li {
+  padding: 10px;
+  text-align: justify;
+  margin-left: 10%;
+  max-width: 75%;
+  line-height: 1.75em;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 24px;
+  padding: 10px;
+}
+
+#quote p {
+  margin: 5px;
+}
+
+.link {
+  font-size: 18px;
+  padding: 10px;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: purple;
+}
